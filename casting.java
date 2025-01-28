@@ -40,6 +40,10 @@ class casting {
         char k= (char) h;
         System.out.println(k);
 
+        double z=59.00d;
+        byte q =(byte) z;
+        System.out.println(q);
+
 
 
     }
