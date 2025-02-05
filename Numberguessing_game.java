@@ -11,7 +11,7 @@ public class Numberguessing_game {
         int attempts=0;
         boolean matched= false;
         while(!matched){
-            System.out.println("Enter a number:");
+            System.out.print("Enter a number:");
             System.out.println("Number of attempts:" +attempts);
             user_input=sc.nextInt();
             if(user_input==num) {
