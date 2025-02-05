@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class switch_case {
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
-        System.out.print("Enter a number: 1");
+        System.out.print("Enter a number: ");
         int w = sc.nextInt();
         switch(w){
             case 1:
